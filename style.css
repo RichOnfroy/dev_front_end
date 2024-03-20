@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#list-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form-input {
+    padding: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
