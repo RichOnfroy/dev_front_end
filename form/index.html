@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário de cadastrot</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <center>
+    <header>
+        <h1>formulário de cadastro</h1>
+    </header>
+    <div class="container">
+        <form>
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" pattern="(\d{3}\.\d{3}\.\d{3}-\d{2})|(\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2})" id="cpf" name="cpf">
+
+            <label for="endereco">endereço</label>
+            <input type="text" id="endereco" name="endereco">
+
+            <label for="cep">Cep</label>
+            <input type="text" name="cep" pattern="(\d{3}\.\d{3}\.\d{3}-\d{2})|(\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2})" id="cep" name="cep">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    </center>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
